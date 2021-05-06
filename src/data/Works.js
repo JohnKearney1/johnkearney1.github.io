@@ -72,13 +72,14 @@ const Works = [
         image: '/assets/images/SL-logo.png',
         background: '/assets/images/single-project-hero-5.jpg',
         headline: 'A suite of penetration testing tools, at your fingertips.',
-        text: ['This project is no longer maintained.'],
+        text: ['This project is no longer maintained.', 'SlowLoris is an application layer denial of service attack that utilizes incomplete HTTP requests to effectively consume server resources. Slowloris is a potent denial of service utility due to its resemblence to legitimate internet traffic. The attacking machine can send multiple incomplete requests to spoof a slow connection, and stack multiple requests to use all avalible threads from the target. The target machine is unable to release any of the open partial connections until there is a request termination, and the target will be unable to respond to regular traffic requests.',
+               'This particular implementation comes with a CLI and a small selection of other penetration testing utilities.', 'This repository is not to be used maliciously.'],
         link: ['https://github.com/JohnKearney1/SlowLoris'] ,
         date: 'January 16, 2020',
-        servicesLeft: ['Github Arctic Code Vault', 'Responsive UI/UX Design' , 'iOS & Android Development'],
-        servicesRight: ['Design Brainstorming', 'Product & Market Research', 'Selling & Marketing Strategy'],
-        imagesLeft: ['project-5-1.jpg'],
-        imagesRight: ['project-5-2.jpg']
+        servicesLeft: ['Github Arctic Code Vault', 'Penetration Testing' , 'Email Spoofing'],
+        servicesRight: ['SlowLoris DOS', 'Connection De-Auther'],
+        imagesLeft: [''],
+        imagesRight: ['']
      },
      {
       id: 6,
